@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拾光 · 相册入口</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f2eb;color:#343e31;font:15px/1.9 system-ui,sans-serif}main{max-width:480px;margin:28px;padding:40px;border:1px solid #dedfd3;border-radius:18px;background:#fffdf7}small{color:#858979;letter-spacing:3px}h1{font:36px/1.5 serif;letter-spacing:6px}p{color:#657651}a{color:#657651}</style>
+<main><small>COLLECT THE MOMENTS</small><h1>把回忆连在一起。</h1><p>这是拾光相册的固定连接入口。App 会自动读取最新服务地址，无需输入连接码。</p><p id="status">正在查看服务器状态…</p><small>照片与留言保存在相册主人的电脑。</small></main>
+<script>fetch('server.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(async c=>{if(!c.url)throw Error();const r=await fetch(c.url+'/api/health',{signal:AbortSignal.timeout(8000)});if(!r.ok)throw Error();document.getElementById('status').textContent='服务器在线 · 可以打开 App 一起拾光。';}).catch(()=>{document.getElementById('status').textContent='服务器暂时离线，App 会自动尝试重新连接。';});</script></html>
