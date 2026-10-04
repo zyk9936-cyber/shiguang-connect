@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.shiguang.album",
-    "versionName":  "2.3",
-    "versionCode":  5,
-    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.3/shiguang.apk",
-    "sha256":  "a5e0b8cf9bacd504941c39c1956a9a4a603da0e2318886f84f7e0cce913b5f15",
-    "notes":  "拾光相册 2.3\r\n\r\n包含稳定性改进和体验优化。",
-    "publishedAt":  "2026-10-04T05:44:37.2957264+00:00"
+    "versionName":  "2.4",
+    "versionCode":  6,
+    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.4/shiguang.apk",
+    "sha256":  "87625544da20c460cea5045ee57ed5bb5842ce0d9e8871cfd6051a7c51e51a9c",
+    "notes":  "修复 Android 更新进度与覆盖安装，完善离线音乐、照片删除、账号资料、漫游交互和连续倍速。",
+    "publishedAt":  "2026-10-04T08:24:55.4813354+00:00"
 }
