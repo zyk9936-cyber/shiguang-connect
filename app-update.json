@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.shiguang.album",
-    "versionName":  "2.7",
-    "versionCode":  9,
-    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.7/shiguang.apk",
-    "sha256":  "ebb089da0a12574bd1eea4119289ad06099efd10c5eb1ca8b8689b512d98e6b4",
-    "notes":  "2.7：修复网络恢复和回到前台后的后台连接。前台服务监听网络变化并立即唤醒重连；App 回到前台时强制刷新公网入口，并按游标补齐相册、聊天和通知状态。",
-    "publishedAt":  "2026-10-17T11:57:54.4932741+00:00"
+    "versionName":  "2.8",
+    "versionCode":  10,
+    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.8/shiguang.apk",
+    "sha256":  "e849afdca153a4066dd7b81df865762f93d5a8d8f79ef6d8272d8edbced4d897",
+    "notes":  "2.8：前台恢复时显式唤醒后台连接 worker，减少重新进入 App 后因退避等待导致的离线状态；继续保留网络恢复唤醒、通知游标补偿和公网入口刷新。",
+    "publishedAt":  "2026-10-17T12:06:39.8056473+00:00"
 }
