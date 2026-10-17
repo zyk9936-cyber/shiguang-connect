@@ -1,10 +1,10 @@
 {
-    "schemaVersion":  1,
-    "packageName":  "com.shiguang.album",
-    "versionName":  "2.5",
-    "versionCode":  7,
-    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.5/shiguang.apk",
-    "sha256":  "76791fc90634fa6bddc2ece77b6d230a49ceb1aaff6c395fe2071eef9d3136c8",
-    "notes":  "拾光相册 2.5\r\n\r\n包含稳定性改进和体验优化。",
-    "publishedAt":  "2026-10-17T07:47:53.2487502+00:00"
+  "schemaVersion": 1,
+  "packageName": "com.shiguang.album",
+  "versionName": "2.6",
+  "versionCode": 8,
+  "apkUrl": "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.6/shiguang.apk",
+  "sha256": "af2d004a277664089e6baf71e52b3b42230aaab9a83e7e6419b1327fa49bbd99",
+  "notes": "修复修改账号、修改密码和删除已上传照片提示接口不存在的问题；移除连接、离线及重连状态提醒，保留好友消息、新照片、文字留言和语音等内容通知；新增后端部署及公网接口检查。",
+  "publishedAt": "2026-10-17T11:34:51.0341783+00:00"
 }
