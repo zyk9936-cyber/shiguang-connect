@@ -4,7 +4,7 @@
     "versionName":  "2.4",
     "versionCode":  6,
     "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.4/shiguang.apk",
-    "sha256":  "87625544da20c460cea5045ee57ed5bb5842ce0d9e8871cfd6051a7c51e51a9c",
-    "notes":  "修复 Android 更新进度与覆盖安装，完善离线音乐、照片删除、账号资料、漫游交互和连续倍速。",
-    "publishedAt":  "2026-10-04T08:24:55.4813354+00:00"
+    "sha256":  "db687109cf3d9a5013575211535306f2e904efb0de26a1a21773024de789f924",
+    "notes":  "拾光相册 2.4\r\n\r\n包含稳定性改进和体验优化。",
+    "publishedAt":  "2026-10-17T07:36:49.6703530+00:00"
 }
