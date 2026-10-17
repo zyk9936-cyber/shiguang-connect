@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.shiguang.album",
-    "versionName":  "2.8",
-    "versionCode":  10,
-    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.8/shiguang.apk",
-    "sha256":  "e849afdca153a4066dd7b81df865762f93d5a8d8f79ef6d8272d8edbced4d897",
-    "notes":  "2.8：前台恢复时显式唤醒后台连接 worker，减少重新进入 App 后因退避等待导致的离线状态；继续保留网络恢复唤醒、通知游标补偿和公网入口刷新。",
-    "publishedAt":  "2026-10-17T12:06:39.8056473+00:00"
+    "versionName":  "2.9",
+    "versionCode":  11,
+    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.9/shiguang.apk",
+    "sha256":  "e234e74f94159f31112c0b3b2c7cb5f5310e95e652ef4ebb5e1b2f38a3a974f8",
+    "notes":  "2.9 增加 vivo 厂商推送测试模式，App 进入后台后，好友聊天、照片和留言事件由服务端通过极光 JPush 定向推送到已绑定的 vivo 测试设备。",
+    "publishedAt":  "2026-10-17T14:31:59.9165000+00:00"
 }
