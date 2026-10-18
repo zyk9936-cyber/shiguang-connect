@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
     "packageName":  "com.shiguang.album",
-    "versionName":  "2.9",
-    "versionCode":  11,
-    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.9/shiguang.apk",
-    "sha256":  "e234e74f94159f31112c0b3b2c7cb5f5310e95e652ef4ebb5e1b2f38a3a974f8",
-    "notes":  "2.9 增加 vivo 厂商推送测试模式，App 进入后台后，好友聊天、照片和留言事件由服务端通过极光 JPush 定向推送到已绑定的 vivo 测试设备。",
-    "publishedAt":  "2026-10-17T14:31:59.9165000+00:00"
+    "versionName":  "2.10",
+    "versionCode":  12,
+    "apkUrl":  "https://github.com/zyk9936-cyber/shiguang-connect/releases/download/v2.10/shiguang.apk",
+    "sha256":  "2e3aee50c3a7f3263f435be003ccc75113ec23cd24157b47ee4758e5b847fe15",
+    "notes":  "优化连接、消息发送和媒体上传性能",
+    "publishedAt":  "2026-10-18T05:35:46.0842679+00:00"
 }
